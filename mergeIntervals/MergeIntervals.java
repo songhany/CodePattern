@@ -1,0 +1,6 @@
+package mergeIntervals;
+
+
+class MergeIntervals {
+  
+}
