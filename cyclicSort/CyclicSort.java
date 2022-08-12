@@ -4,7 +4,7 @@ class CyclicSort {
   public static void sort(int[] arr) {
     int i = 0;
     while (i < arr.length) {
-      int j = arr[i] - 1;
+      int j = arr[i] - 1;   // j: 当前 i 位置数应该在的正确位置
       if (arr[i] != arr[j])
         swap(arr, i, j);
       else
