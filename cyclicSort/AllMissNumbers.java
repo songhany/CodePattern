@@ -1,5 +1,0 @@
-package cyclicSort;
-
-class AllMissNumbers {
-  
-}
