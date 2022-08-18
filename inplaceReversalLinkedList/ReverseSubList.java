@@ -18,7 +18,8 @@ class ReverseSubList {
       return head;
 
     // after skipping 'p-1' nodes, current will point to 'p'th node
-    ListNode current = head, previous = null;
+    ListNode previous = null;
+    ListNode current = head;
     for (int i = 0; current != null && i < p - 1; ++i) {
       previous = current;
       current = current.next;
