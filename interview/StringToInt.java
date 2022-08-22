@@ -35,10 +35,11 @@ class StringToInt {
       positive = (str.charAt(i) == '+');
       signNumber += 1;
       i++;
+      if (signNumber > 1) {  // if number of sign > 1, return 0
+        return 0;
+      }
     }
-    if (signNumber > 1) {
-      return 0;
-    }
+
 
     long sum = 0;  // because overflow, we have to use 'long' at first
     while (i < str.length() && str.charAt(i) >= '0' && str.charAt(i) <= '9') {  // case 4
