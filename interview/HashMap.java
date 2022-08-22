@@ -28,7 +28,7 @@ class Node {
 class HashMap {
   // field
   private static final int DEFAULT_CAPACITY = 16;
-  private static final double DEFAULT_CAPACITY = 0.75;
+  private static final double DEFAULT_LOADFACTOR = 0.75;
   private int size;
   private Node[] array;
   private int capacity;
@@ -41,7 +41,7 @@ class HashMap {
     this.loadFactor = DEFAULT_CAPACITY;
   }
 
-  public HashMap(int cap, double loadFactor) {
+  public HashMap(int cap, double loadFactor) throws Exception {
     if (cap <= 0) {
       throw new Exception("illegal capacity");
     }
