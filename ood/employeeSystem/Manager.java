@@ -1,4 +1,4 @@
-package employeeSystem;
+package ood.employeeSystem;
 
 import java.util.*;
 

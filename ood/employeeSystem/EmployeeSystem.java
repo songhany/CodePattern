@@ -1,4 +1,4 @@
-package employeeSystem;
+package ood.employeeSystem;
 
 public class EmployeeSystem {
   public static void main(String[] args) {

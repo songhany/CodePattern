@@ -1,4 +1,4 @@
-package parkinglot;
+package ood.parkinglot;
 
 public class ParkingLot {
     private final Level[] levels;

@@ -1,4 +1,4 @@
-package fileSystem;
+package ood.fileSystem;
 
 public class File extends Entry {
   private String content;

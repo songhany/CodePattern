@@ -1,4 +1,4 @@
-package employeeSystem;
+package ood.employeeSystem;
 
 public class Employee {
   public static final String company="Yu's company";

@@ -1,4 +1,4 @@
-package parkinglot;
+package ood.parkinglot;
 
 public class Truck extends Vehicle {
     @Override

@@ -1,7 +1,5 @@
 package inplaceReversalLinkedList;
 
-import java.util.*;
-
 class ListNode {
   int value = 0;
   ListNode next;

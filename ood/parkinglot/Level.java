@@ -1,4 +1,4 @@
-package parkinglot;
+package ood.parkinglot;
 
 import java.util.*;
 

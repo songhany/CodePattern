@@ -1,4 +1,4 @@
-package fileSystem;
+package ood.fileSystem;
 
 public abstract class Entry {
   protected Directory parent;

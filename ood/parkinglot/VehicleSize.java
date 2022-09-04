@@ -1,4 +1,4 @@
-package parkinglot;
+package ood.parkinglot;
 
 public enum VehicleSize {
     Compact(1),
